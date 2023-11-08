@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MoviesComponent } from './movies/movies.component';
+import { MovieDetailsComponent } from './movie-details/movie-details.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    MoviesComponent,
+    MovieDetailsComponent
+  ],
   imports: [
     CommonModule
   ]
