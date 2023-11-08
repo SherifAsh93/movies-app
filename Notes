@@ -1,0 +1,3 @@
+Angular is based on classes, each one has its own different purposes like it can be component, service, module, etc...
+Angular differentiate between these classes using: [Decorator] -> function that hold meta info. for each class which starts with (@)
+    specifically using @NgModule  -> that tells angular how to deal with each one
